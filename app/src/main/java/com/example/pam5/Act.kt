@@ -79,4 +79,15 @@ fun FormatDataDiri(modifier: Modifier = Modifier) {
             onValueChange = { textAlamat = it }
         )
 
+        Button(
+            modifier = Modifier.padding(top = 12.dp),
+            onClick = {
+                nama = textNama
+                alamat = textAlamat
+                jenis = textJK
+            }
+        ) {
+            Text("Simpan")
+        }
+
 }
