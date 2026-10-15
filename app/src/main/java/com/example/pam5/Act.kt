@@ -90,4 +90,10 @@ fun FormatDataDiri(modifier: Modifier = Modifier) {
             Text("Simpan")
         }
 
+        HorizontalDivider(
+            modifier = Modifier.padding(vertical = 16.dp),
+            thickness = 1.dp,
+            color = Color.DarkGray
+        )
+
 }
