@@ -33,5 +33,10 @@ fun FormatDataDiri(modifier: Modifier = Modifier) {
     var textJK by remember { mutableStateOf("") }
     val gender: List<String> = listOf("Laki-laki", "Perempuan")
 
+    // variabel untuk menyimpan data yang ditampilkan di card
+    var nama by remember { mutableStateOf("") }
+    var alamat by remember { mutableStateOf("") }
+    var jenis by remember { mutableStateOf("") }
+
 
 }
