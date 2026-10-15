@@ -102,5 +102,12 @@ fun FormatDataDiri(modifier: Modifier = Modifier) {
             modifier = Modifier
                 .height(110.dp)
                 .width(300.dp)
-        )
+        ) {
+            Column(modifier = Modifier.padding(horizontal = 5.dp, vertical = 15.dp)) {
+                Text(text = "Nama : $nama", color = Color.White)
+                Text(text = "Gender : $jenis", color = Color.White)
+                Text(text = "Alamat : $alamat", color = Color.White)
+            }
+        }
+    }
 }
